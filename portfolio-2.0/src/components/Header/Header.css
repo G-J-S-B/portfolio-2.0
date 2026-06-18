@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 10px 6px;
+    margin: 20px;
+    border: 1px solid var(--border);
+    border-radius: 50px;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon img{
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.nav-icon > span{
+    font-size: 1.5rem;
+}
+
+.nav-resume-btn{
+    padding: 6px 20px;
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.nav-resume-btn:hover{
+    background-color: var(--border);
+}
