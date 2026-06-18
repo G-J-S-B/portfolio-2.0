@@ -7,6 +7,8 @@ header{
     margin: 20px 0px;
     border: 1px solid var(--border);
     border-radius: 50px;
+    /* background-color: rgba(255, 255, 255, 0.0); 
+    backdrop-filter: blur(10px);  */
 }
 
 .nav-icon{
@@ -33,7 +35,7 @@ header{
 }
 
 .nav-resume-btn:hover{
-    background-color: var(--border);
+    box-shadow: 0px 0px 5px var(--border);
 }
 
 .nav-resume-btn:active{
@@ -107,10 +109,6 @@ nav {
     border-radius: 50px;
     background-color: var(--border);
     color: var(--text);
-}
-
-.nav-items a:active{
-    background-color: var(--border);
 }
 
 .nav-items a:active{
