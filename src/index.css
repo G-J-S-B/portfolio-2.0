@@ -1,0 +1,72 @@
+:root {
+	--text: #dddddd;
+	--bg: #000000;
+	--border: #c2c2c2;
+	--social-bg: rgba(244, 243, 236, 0.5);
+	--shadow:
+		rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+	--heading: "Montserrat", sans-serif;
+	--content: system-ui, "Segoe UI", Roboto, sans-serif;
+	--mono: ui-monospace, Consolas, monospace;
+
+	@media (max-width: 1024px) {
+		font-size: 16px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text: #9ca3af;
+		--text-h: #f3f4f6;
+		--bg: #16171d;
+		--border: #2e303a;
+	}
+
+	#social .button-icon {
+		filter: invert(1) brightness(2);
+	}
+}
+
+body {
+	margin: 0;
+	outline: 0;
+	background-color: var(--bg);
+	position: relative;
+}
+
+* {
+	margin: 0;
+	outline-offset: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+li,
+span {
+	color: var(--text);
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+span {
+	font-family: var(--heading);
+}
+
+a {
+	text-decoration: none;
+}

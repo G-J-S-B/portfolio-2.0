@@ -3,7 +3,7 @@
     "label": "LinkedIn",
     "username": "gerrard-barrows-706228225",
     "link": "https://www.linkedin.com/in/gerrard-barrows-706228225/",
-    "icon": "linkedin",
+    "icon": "/images/linkedin.png",
     "ariaLabel": "Visit Gerrard Barrows on LinkedIn",
     "target": "_blank",
     "rel": "noreferrer"
@@ -12,7 +12,7 @@
     "label": "Instagram",
     "username": "gerrard.barrows",
     "link": "https://www.instagram.com/gerrard.barrows/",
-    "icon": "instagram",
+    "icon": "/images/instagram.png",
     "ariaLabel": "Visit Gerrard Barrows on Instagram",
     "target": "_blank",
     "rel": "noreferrer"
@@ -21,7 +21,7 @@
     "label": "GitHub",
     "username": "G-J-S-B",
     "link": "https://github.com/G-J-S-B",
-    "icon": "github",
+    "icon": "/images/github.png",
     "ariaLabel": "Visit Gerrard Barrows on GitHub",
     "target": "_blank",
     "rel": "noreferrer"
