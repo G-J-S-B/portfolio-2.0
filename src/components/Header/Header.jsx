@@ -13,7 +13,7 @@ function Header(){
 
 
     return(
-        <div className="container">
+        <div className='header-container'>
             <header>
                 <a href="#" className="nav-icon">
                     <img src="/images/placeholder.png" alt="" />
