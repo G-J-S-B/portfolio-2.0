@@ -19,13 +19,13 @@ function Footer() {
                 </div>
                 <div className='footer-blurb'>
                     <h3>
-                        Creating Connections, <br /> Embracing Challenges,<br /> Always Learning.
+                        Creating Connections, <br /> Embracing Challenges,<br /> Continuously Learning.
                     </h3>
                 </div>
                 <div className='footer-content'>
                     <p>
                         I'm driven by cursiosity, motivated by overcoming challenges, <br />
-                        and always looking to connect with people who share <br />my passion for innovation and creativity. 
+                        and always looking to connect with people who share <br />my passion for creativity. 
                     </p>
                 </div>
             </div>

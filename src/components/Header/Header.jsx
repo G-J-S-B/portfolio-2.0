@@ -5,12 +5,10 @@ import { useState } from 'react'
 
 function Header(){
     const [isOpen, setIsOpen] = useState(false)
-
-
+    
     function handleMenuClick(){
         setIsOpen(!isOpen)
     }
-
 
     return(
         <div className='header-container'>
@@ -43,5 +41,5 @@ function Header(){
         
         
     )
-}
+};
 export default Header

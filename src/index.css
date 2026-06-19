@@ -1,10 +1,8 @@
 :root {
 	--text: #9ca3af;
-	--text-h: #f3f4f6;
 	--bg: #16171d;
 	--border: #2e303a;
 	--color-primary:#4F8CFF;
-	--social-bg: rgba(244, 243, 236, 0.5);
 	--shadow:
 		rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
@@ -17,9 +15,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		
-	}
 
 	#social .button-icon {
 		filter: invert(1) brightness(2);
@@ -51,7 +46,7 @@ span {
 }
 
 .container {
-	width: 80%;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 
@@ -74,6 +69,50 @@ p{
 	font-weight: 300;
 }
 
+.section-title{
+	margin: 0px 0px 60px;
+}
+
+.section-title > h2{
+	font-size: 1.25rem;
+	font-family: var(--content);
+	color: var(--color-primary);
+	position: relative;
+    padding-left: 1rem;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 3px;
+  height: 20px;
+
+  background: var(--color-primary);
+  border-radius: 2px;
+}
+
+.section-title > p{
+	font-size: 2rem;
+}
+
 .make-blue{
     color: var(--color-primary);
+}
+
+section,
+footer
+{
+	padding: 40px 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px;
 }
