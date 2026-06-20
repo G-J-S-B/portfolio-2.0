@@ -31,6 +31,7 @@ body {
 * {
 	margin: 0;
 	outline-offset: 0;
+	cursor: default;
 }
 
 p,

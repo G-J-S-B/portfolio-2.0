@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Project Management",
+      "icon": "tasks",
+      "skills": [
+        "Agile",
+        "Scrum",
+        "Stakeholder Management",
+        "Sprint Planning",
+        "Backlog Grooming",
+        "Project Coordination"
+      ]
+    },
+    {
+      "title": "Technical",
+      "icon": "code",
+      "skills": [
+          "HTML/CSS",
+          "JavaScript",
+          "WordPress",
+          "React",
+          "Node.js",
+          "REST APIs"
+      ]
+    },
+    {
+      "title": "Creative",
+      "icon": "palette",
+      "skills": [
+        "Digital Art",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "SEO",
+        "Copywriting",
+        "Content Writing"
+      ]
+    }
+  ]

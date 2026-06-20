@@ -23,7 +23,7 @@ function Header(){
                     <span className='circle'></span>
                     <span className='circle'></span>
                 </a>
-                <a className="nav-resume-btn" href="">Resume</a>
+                <a className="nav-resume-btn" href="">Contact</a>
             </header>
             {isOpen && (
             <nav>
