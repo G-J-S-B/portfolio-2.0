@@ -1,15 +1,19 @@
 import { useState, useEffect } from "react";
 import './Hero.css'
-const titles = [
-  "Technical Project Manager",
-  "Digital Artist",
-  "Occasional Programmer",
-];
+
 
 function Hero() {
-  const [text, setText] = useState("");
-  const [index, setIndex] = useState(0);
-  const [deleting, setDeleting] = useState(false);
+
+const titles = [
+"Technical Project Manager",
+"Digital Artist",
+"Occasional Programmer",
+"Project Coordinator",  
+];
+
+const [text, setText] = useState("");
+const [index, setIndex] = useState(0);
+const [deleting, setDeleting] = useState(false);
   
 
   useEffect(() => {
@@ -37,7 +41,7 @@ function Hero() {
 
 
   return (
-    <section className="hero">
+    <section className="hero" id="home">
         <div className="hero-section-left">
             <h1>Gerrard <br /> <span className="make-blue">JS</span> Barrows</h1>
             <h2>
@@ -49,9 +53,9 @@ function Hero() {
                     Nice to virtually meet you.
                 </p>
                 <p>
-                    I have 7+ years of industry experince under my belt. <br /> 
-                    I also dabble in Coding and love to create Art digitally. <br />
-                    If you have a moment, I'd love to how you what I've accomplished over the years
+                    I have <strong className="make-blue">+7 years</strong> of industry experince under my belt.
+                    I also dabble in <strong className="make-blue">Coding</strong> and love to create <strong className="make-blue">Art</strong> digitally. <br /> <br />
+                    If you have a moment, I'd love to how you what I've accomplished over the years.
                 </p>
             </div>
         </div>
@@ -59,6 +63,8 @@ function Hero() {
         <div className="hero-section-right">
                 <img className="floating-image" src="/images/hero.png" alt=""/>
         </div>
+
+        
     </section>
   );
 }

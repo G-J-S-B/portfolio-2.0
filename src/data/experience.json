@@ -1,0 +1,50 @@
+[   
+    {
+      "company": "iPlex Pvt Ltd",
+      "logo": "/images/iplex.png",
+      "position": "Senior Project Manager",
+      "period": "2018 - Present",
+      "description": "Leading the delivery of web and mobile application projects for international clients while managing stakeholder relationships, Agile workflows, and cross-functional teams.",
+      "skills": [
+        "Agile",
+        "Scrum",
+        "Stakeholder Management",
+        "Requirements Gathering",
+        "Resource Planning",
+        "Jira",
+        "Asana",
+        "Click-up"
+      ]
+    },
+    {
+      "company": "AKITS - Akhtar IT Solutions",
+      "logo": "/images/akits.png",
+      "position": "CSR | Content Writer",
+      "period": "2017 - 2018",
+      "description": "Created SEO-focused content, supported digital marketing initiatives, managed customer interactions, and contributed to lead generation efforts for international clients.",
+      "skills": [
+        "Content Writing",
+        "SEO",
+        "Copywriting",
+        "Customer Support",
+        "Lead Generation",
+        "Research"
+      ]
+    },
+    {
+      "company": "AnimeGearz",
+      "logo": "/images/animegearz.png",
+      "position": "Freelance Content Writer",
+      "period": "2016 - 2017",
+      "description": "Produced SEO-driven content and product listings for an anime merchandise e-commerce platform, helping drive organic traffic and improve product visibility.",
+      "skills": [
+        "Content Writing",
+        "SEO",
+        "E-Commerce",
+        "Blog Writing",
+        "Product Content",
+        "WordPress",
+        "Shopify"
+      ]
+    }
+  ]
