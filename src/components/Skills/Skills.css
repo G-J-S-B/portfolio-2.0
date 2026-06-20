@@ -58,3 +58,37 @@
     box-shadow: 0px 0px 5px var(--border);
     cursor: default;
 }
+
+.certification-section{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin: 40px auto;
+    align-items: center;
+}
+
+.certification-section h3{
+    font-size: 2rem;
+}
+
+.certfication-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.certfication-block img{
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.verticle-line{
+    display: block;
+    height: 120px;
+    width: 2px;
+    background-color: var(--border);
+    margin: 0px 30px;
+
+}
+

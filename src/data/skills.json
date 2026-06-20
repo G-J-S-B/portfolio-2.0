@@ -1,4 +1,16 @@
 [
+  {
+      "title": "Technical",
+      "icon": "code",
+      "skills": [
+          "HTML/CSS",
+          "JavaScript",
+          "WordPress",
+          "React",
+          "Node.js",
+          "REST APIs"
+      ]
+    },
     {
       "title": "Project Management",
       "icon": "tasks",
@@ -9,18 +21,6 @@
         "Sprint Planning",
         "Backlog Grooming",
         "Project Coordination"
-      ]
-    },
-    {
-      "title": "Technical",
-      "icon": "code",
-      "skills": [
-          "HTML/CSS",
-          "JavaScript",
-          "WordPress",
-          "React",
-          "Node.js",
-          "REST APIs"
       ]
     },
     {

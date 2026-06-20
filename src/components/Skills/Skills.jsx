@@ -1,5 +1,6 @@
 import './Skills.css'
 import skills from '../../data/skills.json'
+import certificates from '../../data/certification.json'
 
 function Skills(){
     return(
@@ -22,8 +23,18 @@ function Skills(){
                 ))}
             </div>
 
-            <div>
 
+            <div className='certification-section'>
+                <h3>Certifications</h3> 
+                <span className='verticle-line'></span>               
+                    {certificates.map((certificate) => (
+                        <div className='certfication-block' key={certificate.title}>
+                            <img src={certificate.logo} alt={certificate.title} />
+                            <span>{certificate.title}</span>
+                            <span>{certificate.completion}</span>
+                        </div>
+                    ))}
+                
             </div>
         </section>
     )

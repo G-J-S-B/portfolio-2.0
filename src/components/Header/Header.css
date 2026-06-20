@@ -76,7 +76,7 @@ header {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: var(--color-primary);
+    background-color: var(--text);
 }
 /* ### Navigation css starts here ### */
 

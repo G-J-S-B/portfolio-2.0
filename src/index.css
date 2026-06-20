@@ -117,3 +117,8 @@ html {
 section {
   scroll-margin-top: 100px;
 }
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+  display: none;
+}

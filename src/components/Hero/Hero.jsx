@@ -55,7 +55,7 @@ const [deleting, setDeleting] = useState(false);
                 <p>
                     I have <strong className="make-blue">+7 years</strong> of industry experince under my belt.
                     I also dabble in <strong className="make-blue">Coding</strong> and love to create <strong className="make-blue">Art</strong> digitally. <br /> <br />
-                    If you have a moment, I'd love to how you what I've accomplished over the years
+                    If you have a moment, I'd love to how you what I've accomplished over the years.
                 </p>
             </div>
         </div>
