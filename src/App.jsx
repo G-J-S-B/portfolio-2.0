@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
+import SectionNav from './components/SectionNav/SectonNav'
 import Lenis from "lenis";
 import { useEffect } from "react";
 
@@ -31,6 +32,7 @@ function App() {
       <Header />
       <div className='container'>
       <Hero />
+      <SectionNav />
       <About />
       <Skills />
       </div>
