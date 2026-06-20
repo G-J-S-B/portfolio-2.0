@@ -5,6 +5,8 @@ import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
 import SectionNav from './components/SectionNav/SectonNav'
+import Projects from './components/Projects/Projects'
+
 import Lenis from "lenis";
 import { useEffect } from "react";
 
@@ -34,7 +36,9 @@ function App() {
       <Hero />
       <SectionNav />
       <About />
+      <Projects />
       <Skills />
+      
       </div>
       <Footer />
     </main>

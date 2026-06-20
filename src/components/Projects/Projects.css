@@ -1,0 +1,56 @@
+.active-project{
+    display: flex;
+    background-color: rgba(47, 82, 125, 0.3);
+    padding: 50px;
+    padding-right: 0px;
+    border-radius: 15px;
+    margin: 20px auto 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-content,
+.project-images{
+    width: 50%;
+}
+
+.project-images{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+
+}
+
+.project-link{
+    height: 30px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.project-link > img{
+    height: 25px;
+}
+
+.project-images{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.phone-image,
+.laptop-image{
+    position: relative;
+}
+
+.phone-image > img{
+    height: 300px;
+    margin-bottom: 100px;
+
+}
+.laptop-image > img{
+    height: 500px;
+    margin-right: -300px;
+}
