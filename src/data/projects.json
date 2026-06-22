@@ -34,5 +34,23 @@
     "heroImage": "/images/ai/hero.png",
     "thumbnail": "/images/ai/thumb.png",
     "link": "/projects/ai-companion"
+  },
+  {
+    "id": 5,
+    "title": "Project 5",
+    "category": "AI Product",
+    "description": "An AI-powered companion focused on conversation, support, and productivity.",
+    "heroImage": "/images/ai/hero.png",
+    "thumbnail": "/images/ai/thumb.png",
+    "link": "/projects/ai-companion"
+  },
+  {
+    "id": 6,
+    "title": "Project 6",
+    "category": "AI Product",
+    "description": "An AI-powered companion focused on conversation, support, and productivity.",
+    "heroImage": "/images/ai/hero.png",
+    "thumbnail": "/images/ai/thumb.png",
+    "link": "/projects/ai-companion"
   }
 ]
