@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Synthetic Muscle",
+    "category": "Concept Work",
+    "description": "I'm an explorer at heart — design is where that curiosity comes alive. I experiment to create intuitive, meaningful experiences.",
+    "heroImage": "/images/synthetic-muscle/hero.png",
+    "thumbnail": "/images/synthetic-muscle/thumb.png",
+    "link": "/projects/synthetic-muscle"
+  },
+  {
+    "id": 2,
+    "title": "Nike Campaign",
+    "category": "UI Design",
+    "description": "A modern campaign experience focused on performance, storytelling and conversion.",
+    "heroImage": "/images/nike/hero.png",
+    "thumbnail": "/images/nike/thumb.png",
+    "link": "/projects/nike-campaign"
+  },
+  {
+    "id": 3,
+    "title": "Focus Timer",
+    "category": "Web App",
+    "description": "A distraction-free productivity tool designed for deep work sessions.",
+    "heroImage": "/images/timer/hero.png",
+    "thumbnail": "/images/timer/thumb.png",
+    "link": "/projects/focus-timer"
+  },
+  {
+    "id": 4,
+    "title": "AI Companion",
+    "category": "AI Product",
+    "description": "An AI-powered companion focused on conversation, support, and productivity.",
+    "heroImage": "/images/ai/hero.png",
+    "thumbnail": "/images/ai/thumb.png",
+    "link": "/projects/ai-companion"
+  }
+]

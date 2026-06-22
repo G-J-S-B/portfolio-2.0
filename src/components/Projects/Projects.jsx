@@ -1,39 +1,60 @@
-import './Projects.css'
+import { useState } from "react";
+import projects from "../../data/projects.json";
+import "./Projects.css";
 
-function Projects(){
-    return(
-        <section className='projects-section' id='projects'>
-            <div className='section-title'>
-                <h2>Section name</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet?</p>
-            </div>
+function Projects() {
+  const [activeProject, setActiveProject] = useState(projects[0]);
 
-            <div className='active-project'>
-                <div className='project-content'>
-                    <div className="section-title">
-                        <h2>Section name</h2>
-                        <div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet?</p>
-                            <a href="" className='project-link'>View-more<img src="/images/placeholder.png" alt="" /></a>
-                        </div>          
-                    </div>
-                </div>
-                <div className='project-images'>
-                    <div className="laptop-image">
-                        <img src="/images/laptop-frame.png" alt="" />
-                    </div>
-                    <div className="phone-image">
-                        <img src="/images/phone-frame.png" alt="" />
-                    </div>   
-                </div>
-            </div>
+  return (
+    <section className="projects-section">
+      <div className="hero-card">
 
-            <div className='projects'>
-                
-            </div>
+        <div className="hero-content">
+          <span>{activeProject.category}</span>
 
-        </section>
-    )
+          <h2>{activeProject.title}</h2>
+
+          <p>{activeProject.description}</p>
+
+          <a href={activeProject.link}>
+            View More ↗
+          </a>
+        </div>
+
+        <div className="hero-image">
+          <img
+            src={activeProject.image}
+            alt={activeProject.title}
+          />
+        </div>
+
+      </div>
+
+      <div className="project-selector">
+
+        {projects.map((project) => (
+          <a
+            key={project.id}
+            className={`project-thumb ${
+              activeProject.id === project.id
+                ? "active"
+                : ""
+            }`}
+            onClick={() =>
+              setActiveProject(project)
+            }
+          >
+            <img
+              src={project.image}
+              alt={project.title}
+            />
+            <span>{project.title}</span>
+          </a>
+        ))}
+
+      </div>
+    </section>
+  );
 }
 
-export default Projects
+export default Projects;

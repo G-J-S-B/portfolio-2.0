@@ -1,56 +1,101 @@
-.active-project{
-    display: flex;
-    background-color: rgba(47, 82, 125, 0.3);
-    padding: 50px;
-    padding-right: 0px;
-    border-radius: 15px;
-    margin: 20px auto 50px;
-    justify-content: space-between;
-    align-items: center;
+.projects-section {
+  width: 100%;
+  padding: 2rem;
 }
 
-.project-content,
-.project-images{
-    width: 50%;
+.hero-card {
+  height: 600px;
+  border-radius: 15px;
+  background: #0b0d14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  z-index: 0;
 }
 
-.project-images{
-    display: flex;
-    justify-content: flex-end;
-    gap: 40px;
-
+.hero-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.project-link{
-    height: 30px;
-    width: 130px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+.hero-content span {
+  color: #aaa;
+  margin-bottom: 6px;
 }
 
-.project-link > img{
-    height: 25px;
+.hero-content h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 12px;
+  
 }
 
-.project-images{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.hero-content p {
+  max-width: 550px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
-.phone-image,
-.laptop-image{
-    position: relative;
+.hero-content a {
+  transition: 0.2s;
+  width: 125px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
-.phone-image > img{
-    height: 300px;
-    margin-bottom: 100px;
-
+.hero-content a:hover {
+  color: var(--color-primary);
+  cursor: pointer;
 }
-.laptop-image > img{
-    height: 500px;
-    margin-right: -300px;
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 80%;
+  object-fit: contain;
+}
+
+.project-selector {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+  margin-top: -1.5rem;
+  overflow-x: auto;
+  
+}
+
+.project-thumb {
+  width: 220px;
+  background: #111;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.project-thumb img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.project-thumb span {
+  display: block;
+  padding: 1rem;
+  color: white;
+}
+
+.project-thumb.active {
+  outline: 2px solid #4d7cff;
+  transform: translateY(-5px);
 }
