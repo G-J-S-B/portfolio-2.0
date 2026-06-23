@@ -36,7 +36,7 @@
 .hero-content p {
 	max-width: 550px;
 	line-height: 1.6;
-	margin-bottom: 2rem;
+	margin-bottom: 15px;
 }
 
 .hero-content a {
@@ -61,6 +61,10 @@
 .hero-image img {
 	width: 80%;
 	object-fit: contain;
+}
+.project-tech-stack{
+  display: block;
+  padding-bottom: 22px;
 }
 
 .project-selector {

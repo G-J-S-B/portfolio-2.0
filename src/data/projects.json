@@ -6,7 +6,12 @@
     "description": "I'm an explorer at heart — design is where that curiosity comes alive. I experiment to create intuitive, meaningful experiences.",
     "heroImage": "/images/synthetic-muscle/hero.png",
     "thumbnail": "/images/synthetic-muscle/thumb.png",
-    "link": "/projects/synthetic-muscle"
+    "link": "/projects/synthetic-muscle",
+    "tech":[
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   },
   {
     "id": 2,
@@ -15,7 +20,12 @@
     "description": "A modern campaign experience focused on performance, storytelling and conversion.",
     "heroImage": "/images/nike/hero.png",
     "thumbnail": "/images/nike/thumb.png",
-    "link": "/projects/nike-campaign"
+    "link": "/projects/nike-campaign",
+    "tech":[
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   },
   {
     "id": 3,
@@ -24,7 +34,12 @@
     "description": "A distraction-free productivity tool designed for deep work sessions.",
     "heroImage": "/images/timer/hero.png",
     "thumbnail": "/images/timer/thumb.png",
-    "link": "/projects/focus-timer"
+    "link": "/projects/focus-timer",
+    "tech":[
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   },
   {
     "id": 4,
@@ -33,7 +48,12 @@
     "description": "An AI-powered companion focused on conversation, support, and productivity.",
     "heroImage": "/images/ai/hero.png",
     "thumbnail": "/images/ai/thumb.png",
-    "link": "/projects/ai-companion"
+    "link": "/projects/ai-companion",
+    "tech":[
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   },
   {
     "id": 5,
@@ -42,7 +62,12 @@
     "description": "An AI-powered companion focused on conversation, support, and productivity.",
     "heroImage": "/images/ai/hero.png",
     "thumbnail": "/images/ai/thumb.png",
-    "link": "/projects/ai-companion"
+    "link": "/projects/ai-companion",
+    "tech":[
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   },
   {
     "id": 6,
@@ -51,6 +76,11 @@
     "description": "An AI-powered companion focused on conversation, support, and productivity.",
     "heroImage": "/images/ai/hero.png",
     "thumbnail": "/images/ai/thumb.png",
-    "link": "/projects/ai-companion"
+    "link": "/projects/ai-companion",
+    "tech":[
+      "HTML",
+      "CSS",
+      "JS"
+    ]
   }
 ]

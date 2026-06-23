@@ -6,7 +6,7 @@ function About(){
         <section className='about-container' id='experience'>
             <div className='section-title'>
                 <h2>My journey thus far</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quod.</p>
+                <p>I've met and worked with some Fantastic people</p>
             </div>
 
             {experiences.map((experience) => (

@@ -13,6 +13,12 @@ function Projects() {
 
   return (
     <section className="projects-section" id="projects">
+      
+      <div className='section-title'>
+                <h2>A few of my Accomplishments</h2>
+                <p>Here are a few of the many projects that I've been part of.</p>
+      </div>
+      
       <div className="hero-card">
         <div className="hero-content">
           <span>{activeProject.category}</span>
@@ -20,6 +26,15 @@ function Projects() {
           <h2>{activeProject.title}</h2>
 
           <p>{activeProject.description}</p>
+          
+          <div className="project-tech-stack">
+            {activeProject.tech.map((tech, index) => (
+                <span key={index}>
+                  {tech}
+                  {index !== activeProject.tech.length - 1 && " | "}
+                </span>
+              ))}
+          </div>
 
           <a href={activeProject.link}>
             View More ↗

@@ -6,6 +6,7 @@ import About from './components/About/About'
 import Skills from './components/Skills/Skills'
 import SectionNav from './components/SectionNav/SectonNav'
 import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
 
 import Lenis from "lenis";
 import { useEffect } from "react";
@@ -33,12 +34,12 @@ function App() {
     <main>
       <Header />
       <div className='container'>
-      <Hero />
-      <SectionNav />
-      <About />
-      <Projects />
-      <Skills />
-      
+        <SectionNav />
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
       </div>
       <Footer />
     </main>

@@ -7,7 +7,7 @@ function Skills(){
         <section className='skills-container' id='skills'>
             <div className='section-title'>
                 <h2>Here's what I'm good at</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quod.</p>
+                <p>The skills I've acquired over the years.</p>
             </div>
 
             <div className='skills-section'>
